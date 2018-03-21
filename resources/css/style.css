@@ -5,10 +5,6 @@ html {
   font-size: 16px;
 }
 
-div {
-  border: 2px solid red;
-}
-
 /* Header */
 
 header {
@@ -359,6 +355,8 @@ header .mobile {
   }
 }
 
+
+
 /* Filters Section */
 
 #filters-section {
@@ -434,6 +432,13 @@ header .mobile {
   }
 }
 
+@media only screen and (max-width: 450px) {
+  #filters-section .content {
+    margin: 0 5rem 1rem 5rem;
+  }
+
+}
+
 /* Quotes Section */
 
 #quotes-section {
@@ -452,6 +457,7 @@ header .mobile {
   font-style: italic;
   color: #4a4a4a;
 }
+
 
 
 @media only screen and (max-width: 760px) {
@@ -475,10 +481,10 @@ header .mobile {
 }
 
 @media only screen and (max-width: 450px) {
-  #quotes-section content {
+  #quotes-section .content {
     display: flex;
     flex-direction: column;
-    padding: 12.875rem .625rem;
+    padding: 2.875rem 4.5rem;
     color: red;
   }
 }
