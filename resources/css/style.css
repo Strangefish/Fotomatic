@@ -62,6 +62,8 @@ header .mobile {
   header .mobile {
     display: block;
     width: 100%;
+    position: fixed;
+    top: 0;
   }
 
   header .content {
@@ -80,7 +82,7 @@ header .mobile {
   }
 
   header .mobile .button {
-    padding: .1875rem .5rem;
+    padding: 0.1875rem 4.8rem;
     background-color: #9dc20b;
     line-height: 1.6;
     color: white;
@@ -118,7 +120,7 @@ header .mobile {
   display: block;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 450px) {
   .main-content {
     top: 2.5625rem;
   }
@@ -204,7 +206,7 @@ header .mobile {
     position: static;
     width: auto;
     height: auto;
-    background-color: transparent;
+    background-color: transparent
     border: none;
   }
 
