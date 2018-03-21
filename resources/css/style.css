@@ -329,6 +329,7 @@ header .mobile {
 }
 
 @media only screen and (max-width: 890px) {
+
   .feature h2 {
     font-size: 1.125rem;
     line-height: 1.3;
@@ -350,6 +351,11 @@ header .mobile {
   .feature {
     margin: 0;
     padding: 1.25rem 1rem 0 1rem;
+    height: auto;
+  }
+
+  .feature .content {
+    padding: 1.25rem 0 1.875rem 0
   }
 }
 
@@ -392,6 +398,10 @@ header .mobile {
 .images-container img {
   width: 100%;
   height: auto;
+}
+
+.content br {
+  display: none;
 }
 
 @media only screen and (max-width: 760px) {
@@ -445,16 +455,19 @@ header .mobile {
 
 
 @media only screen and (max-width: 760px) {
-  #quotes-section content {
+
+
+  #quotes-section .content {
     padding: 1.875rem .625rem;
+    text-align: center;
   }
 
-  #quotes-section quote {
+  #quotes-section .quote {
     font-size: 1.5rem;
     line-height: 1.4;
   }
 
-  #quotes-section quote-citation {
+  #quotes-section .quote-citation {
     display: block;
     padding-top: 1rem;
     margin: auto;
